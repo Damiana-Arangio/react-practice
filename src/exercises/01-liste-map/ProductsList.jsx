@@ -37,7 +37,7 @@ function ProductsList() {
     *************/
     return(
         <>
-            <h2>Lista Prodotti</h2>
+            <h3>Lista Prodotti</h3>
             <ul>
                 {products.map( product => 
                     <li key={product.id}> {product.name} - {product.price}€</li>

@@ -37,7 +37,7 @@ function StudentsList() {
     *************/
     return(
         <>
-            <h2> Lista Studenti </h2>
+            <h3> Lista Studenti </h3>
             <ul>
                 {students.map( student =>
                     <li key={student.id}> 

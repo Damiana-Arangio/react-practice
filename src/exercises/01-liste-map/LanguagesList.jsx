@@ -15,7 +15,7 @@ function LanguagesList() {
     *************/
     return(
         <>
-            <h2> Lista linguaggi </h2>
+            <h3> Lista linguaggi </h3>
             <ul>
                 {languages.map((language, index) => (
                     <li key={index}> {language} </li>
