@@ -1,0 +1,18 @@
+ESERCIZIO PROPS + MAP
+
+Dato un array di oggetti users importato dal file users.js.
+
+Crea un componente UserList.
+
+Dentro UserList utilizza il metodo .map()
+per iterare sull'array e passare ogni singolo utente
+come prop a un componente figlio chiamato UserCard.
+
+UserCard deve ricevere una prop chiamata user
+e mostrare:
+
+- nome
+- ruolo
+- città
+
+Usa UserList all'interno di App.
