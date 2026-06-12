@@ -2,6 +2,7 @@ import LanguagesList from "./exercises/01-liste-map/LanguagesList"
 import StudentsList from "./exercises/01-liste-map/StudentsList"
 import ProductsList from "./exercises/01-liste-map/ProductsList"
 import UserList from "./exercises/02-props/01-product-list-card/UserList"
+import MovieList from "./exercises/02-props/02-movie-list-card/MovieList"
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
           <ProductsList/>
         <h2> 02-exercises-props </h2>
           <UserList/>
+          <MovieList/>
     </>
   )
 }

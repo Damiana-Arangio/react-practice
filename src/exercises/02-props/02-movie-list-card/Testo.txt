@@ -1,0 +1,17 @@
+ESERCIZIO PROPS + ARRAY METHODS
+
+Dato un array di oggetti movies importato dal file movies.js.
+
+Crea un componente MovieList.
+
+Dentro MovieList:
+- filtra solo i film con voto maggiore o uguale a 8;
+- ordina i film dal voto più alto al voto più basso;
+- usa .map() per passare ogni film ad un componente MovieCard.
+
+MovieCard deve ricevere una prop chiamata movie e mostrare:
+- titolo
+- genere
+- voto
+
+Usa MovieList all'interno di App.
