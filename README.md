@@ -1,20 +1,8 @@
-<div align="center">
-
-# React Practice
+<h1 align="center">React Practice</h1>
 
 Repository dedicata al ripasso pratico di React attraverso esercizi progressivi.
 
-</div>
-
----
-
-## Descrizione
-
-Questa repository raccoglie esercizi svolti durante il ripasso di React.
-
-Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali, partendo dalle basi fino ad arrivare a temi più avanzati.
-
----
+Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali.
 
 ## Struttura della Repository
 
@@ -22,19 +10,13 @@ Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i
 src/
 └── exercises/
     ├── 01-liste-map/
-    │   ├── LanguagesList.jsx
-    │   ├── ProductsList.jsx
-    │   └── StudentsList.jsx
+    │   ├── LanguagesList
+    │   ├── ProductsList
+    │   └── StudentsList
     │
-    └── 02-props/
-        ├── 01-product-list-card/
-        │   ├── UserCard.jsx
-        │   ├── UserList.jsx
-        │   ├── users.js
-        │   └── Testo.txt
-        │
-        └── 02-movie-list-card/
-            ├── MovieCard.jsx
-            ├── MovieList.jsx
-            ├── movies.js
-            └── Testo.txt
+    ├── 02-props/
+    │   ├── 01-user-list-card
+    │   └── 02-movie-list-card
+    │
+    └── 03-conditional-rendering/
+        └── 01-user-status

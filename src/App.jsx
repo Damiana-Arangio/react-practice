@@ -3,6 +3,7 @@ import StudentsList from "./exercises/01-liste-map/StudentsList"
 import ProductsList from "./exercises/01-liste-map/ProductsList"
 import UserList from "./exercises/02-props/01-product-list-card/UserList"
 import MovieList from "./exercises/02-props/02-movie-list-card/MovieList"
+import UserStatusList from "./exercises/03-conditional-rendering/01-user-status/UserStatusList"
 
 function App() {
 
@@ -16,6 +17,8 @@ function App() {
         <h2> 02-exercises-props </h2>
           <UserList/>
           <MovieList/>
+        <h2> 02-exercises-conditional-rendering </h2>
+          <UserStatusList />
     </>
   )
 }

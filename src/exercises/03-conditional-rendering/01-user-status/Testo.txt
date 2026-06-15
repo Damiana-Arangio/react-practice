@@ -1,0 +1,27 @@
+ESERCIZIO CONDITIONAL RENDERING
+
+Dato un array di utenti importato dal file users.js.
+
+Crea un componente UserStatusList.
+
+Dentro UserStatusList utilizza .map() per iterare sull'array
+e passare ogni singolo utente come prop ad un componente figlio
+chiamato UserStatusCard.
+
+UserStatusCard deve ricevere una prop chiamata user e mostrare:
+- nome
+- ruolo
+- stato online/offline
+- bio
+
+Gestisci il conditional rendering:
+- se l'utente è online, mostra "Online";
+- se l'utente non è online, mostra "Offline";
+- se l'utente è admin, mostra anche il badge "Admin";
+- se la bio è vuota, mostra "Nessuna bio disponibile".
+
+Aggiungi anche una classe condizionale:
+- "user-card active" se l'utente è online;
+- "user-card" se l'utente è offline.
+
+Usa UserStatusList all'interno di App.
