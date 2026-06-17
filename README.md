@@ -2,7 +2,7 @@
 
 Repository dedicata al ripasso pratico di React attraverso esercizi progressivi.
 
-Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali di React, partendo dalle basi fino alla gestione dello stato e dei componenti.
+Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali di React, partendo dalle basi fino alla gestione dello stato, degli effetti collaterali e dei componenti.
 
 ## Struttura della Repository
 
@@ -27,5 +27,11 @@ src/
     │   ├── 03-synchronized-counters
     │   ├── 04-independent-counters
     │   ├── 05-selectable-list
-    │   ├── 06-accordion
+    │   └── 06-accordion
+    │
+    └── 05-useEffect/
+        ├── 01-delayed-message
+        ├── 02-auto-counter-controls
+        ├── 03-users-list-api
+        └── 04-products-list-api
 ```
