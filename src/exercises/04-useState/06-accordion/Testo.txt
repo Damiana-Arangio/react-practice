@@ -1,0 +1,47 @@
+ESERCIZIO 6 — Accordion
+
+Crea un'app React composta da due componenti:
+
+- AccordionList.jsx → componente padre
+- AccordionItem.jsx → componente figlio
+
+OBIETTIVO:
+Creare un accordion in cui una sola sezione può essere aperta alla volta.
+
+COMPONENTE PADRE:
+Il componente padre deve creare:
+
+1. faqs
+   È un array di oggetti contenente:
+   - id
+   - title
+   - content
+
+2. activeAccordionItem
+   È una variabile di stato.
+   Serve per memorizzare l'id dell'accordion aperto.
+
+3. handleToggle
+   È una funzione che aggiorna activeAccordionItem.
+
+Il padre deve renderizzare gli accordion tramite .map().
+
+COMPONENTE FIGLIO:
+Il componente figlio deve:
+
+- ricevere title, content, isOpen e handleToggle tramite props;
+- mostrare sempre il titolo;
+- mostrare il contenuto solo se isOpen è true;
+- chiamare handleToggle al click sul titolo.
+
+LOGICA:
+All'inizio tutti gli accordion sono chiusi.
+
+Quando l'utente clicca un titolo:
+1. l'id viene salvato in activeAccordionItem;
+2. l'accordion selezionato si apre;
+3. gli altri si chiudono.
+
+Se l'utente clicca nuovamente sull'accordion aperto:
+1. activeAccordionItem torna a null;
+2. tutti gli accordion vengono chiusi.

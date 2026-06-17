@@ -1,0 +1,48 @@
+ESERCIZIO 3 — Synchronized Counters
+
+Crea un'app React composta da due componenti:
+
+- SynchronizedCounters.jsx → componente padre
+- SynchronizedCounter.jsx → componente figlio
+
+OBIETTIVO:
+Mostrare più contatori a schermo.
+
+Ogni contatore deve avere un pulsante di incremento.
+
+Quando l'utente clicca il pulsante di un qualsiasi contatore, tutti i contatori devono aumentare di 1.
+
+COMPONENTE PADRE:
+Il componente padre deve creare:
+
+1. count
+   È una variabile di stato numerica.
+   Serve per memorizzare il valore condiviso da tutti i contatori.
+
+2. handleIncrement
+   È una funzione che incrementa il valore di count di 1.
+
+3. Un array di dati
+   Serve per renderizzare più componenti SynchronizedCounter tramite .map().
+
+Il padre deve passare ad ogni figlio due props:
+
+- count → serve al figlio per mostrare il valore del contatore;
+- handleIncrement → serve al figlio per incrementare il contatore.
+
+COMPONENTE FIGLIO:
+Il componente figlio deve:
+
+- ricevere count e handleIncrement tramite props;
+- mostrare il valore del contatore;
+- mostrare un pulsante di incremento;
+- al click sul pulsante chiamare handleIncrement.
+
+LOGICA:
+Lo stato vive nel padre ed è condiviso da tutti i figli.
+
+Quando l'utente clicca un pulsante:
+1. il figlio esegue handleIncrement;
+2. handleIncrement aggiorna count nel padre;
+3. React esegue un nuovo render;
+4. tutti i contatori mostrano il nuovo valore.

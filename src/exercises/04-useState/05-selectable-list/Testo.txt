@@ -1,0 +1,48 @@
+ESERCIZIO 5 — Selectable List
+
+Crea un'app React composta da due componenti:
+
+- SelectableList.jsx → componente padre
+- SelectableButton.jsx → componente figlio
+
+OBIETTIVO:
+Mostrare una lista di pulsanti.
+
+Un solo pulsante può essere selezionato alla volta.
+
+Se l'utente clicca nuovamente sul pulsante selezionato, nessun elemento deve rimanere attivo.
+
+COMPONENTE PADRE:
+Il componente padre deve creare:
+
+1. items
+   È un array di oggetti contenente:
+   - id
+   - label
+
+2. activeItem
+   È una variabile di stato.
+   Serve per memorizzare l'id dell'elemento selezionato.
+
+3. handleSelect
+   È una funzione che aggiorna activeItem.
+
+Il padre deve renderizzare i pulsanti tramite .map().
+
+COMPONENTE FIGLIO:
+Il componente figlio deve:
+
+- ricevere label, isActive e handleSelect tramite props;
+- mostrare un pulsante;
+- cambiare stile quando è selezionato;
+- chiamare handleSelect al click.
+
+LOGICA:
+Quando l'utente clicca un pulsante:
+1. l'id viene salvato in activeItem;
+2. il pulsante diventa attivo;
+3. tutti gli altri vengono disattivati.
+
+Se l'utente clicca nuovamente sul pulsante attivo:
+1. activeItem torna a null;
+2. nessun pulsante rimane selezionato.

@@ -1,0 +1,51 @@
+ESERCIZIO 2 — Counter
+
+Crea un’app React composta da due componenti:
+
+- CounterContainer.jsx → componente padre
+- Counter.jsx → componente figlio
+
+OBIETTIVO:
+Creare un contatore con due bottoni:
+- un bottone per incrementare il valore
+- un bottone per decrementare il valore
+
+COMPONENTE PADRE:
+Il componente padre deve creare:
+
+1. count
+   È una variabile di stato numerica.
+   Serve per memorizzare il valore attuale del contatore.
+
+2. handleIncrement
+   È una funzione che aumenta il valore di count di 1.
+
+3. handleDecrement
+   È una funzione che diminuisce il valore di count di 1.
+
+Il padre deve passare al figlio tre props:
+
+- count → serve al figlio per mostrare il valore attuale del contatore;
+- handleIncrement → serve al figlio per aumentare il contatore;
+- handleDecrement → serve al figlio per diminuire il contatore.
+
+COMPONENTE FIGLIO:
+Il componente figlio deve:
+
+- ricevere count, handleIncrement e handleDecrement tramite props;
+- mostrare il valore del contatore;
+- avere un bottone “+”;
+- avere un bottone “-”;
+- al click sul bottone “+”, chiamare handleIncrement;
+- al click sul bottone “-”, chiamare handleDecrement.
+
+LOGICA:
+Lo stato del contatore vive nel padre.
+
+Il figlio mostra il valore ricevuto tramite props e, quando l’utente clicca sui bottoni, richiama le funzioni ricevute dal padre.
+
+Quando l’utente clicca:
+1. il figlio esegue handleIncrement oppure handleDecrement;
+2. la funzione aggiorna lo stato count nel padre;
+3. React esegue un nuovo render;
+4. il nuovo valore del contatore viene mostrato nella UI.

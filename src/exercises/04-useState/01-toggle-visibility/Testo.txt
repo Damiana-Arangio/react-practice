@@ -1,0 +1,52 @@
+ESERCIZIO 1 — Toggle Visibility
+
+Crea un’app React composta da due componenti:
+
+- ToggleContainer.jsx → componente padre
+- ToggleTitle.jsx → componente figlio
+
+OBIETTIVO:
+Al click su un titolo, deve comparire o scomparire un testo.
+Quando il testo è visibile, anche il titolo deve cambiare colore.
+
+COMPONENTE PADRE:
+Il componente padre deve creare:
+
+1. isVisible
+   È una variabile di stato booleana.
+   Serve per stabilire se il testo deve essere visibile oppure nascosto.
+
+   - isVisible = false → il testo è nascosto
+   - isVisible = true → il testo è visibile
+
+2. handleToggle
+   È una funzione che modifica lo stato isVisible.
+   Serve per invertire il valore dello stato ad ogni click.
+
+   - se isVisible è false, diventa true
+   - se isVisible è true, diventa false
+
+Il padre deve passare al figlio due props:
+
+- isVisible → serve al figlio per sapere se deve mostrare o nascondere il testo;
+- handleToggle → serve al figlio per eseguire la funzione che cambia il valore di isVisible.
+
+COMPONENTE FIGLIO:
+Il componente figlio deve:
+
+- ricevere isVisible e handleToggle tramite props;
+- mostrare un titolo cliccabile;
+- al click sul titolo, chiamare handleToggle;
+- mostrare il testo solo se isVisible è true;
+- cambiare colore al titolo quando isVisible è true.
+
+LOGICA:
+Lo stato vive nel padre, quindi isVisible e handleToggle vengono creati nel componente ToggleContainer.
+
+Il click però avviene nel figlio, cioè nel componente ToggleTitle.
+
+Quando l’utente clicca sul titolo:
+1. il figlio esegue handleToggle;
+2. handleToggle cambia il valore di isVisible nel padre;
+3. React esegue un nuovo render;
+4. la UI si aggiorna mostrando/nascondendo il testo e cambiando il colore del titolo.

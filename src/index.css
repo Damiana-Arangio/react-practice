@@ -1,0 +1,15 @@
+h1,h2 {
+    color: red;
+}
+
+h3 {
+    color: blue;
+}
+
+.titolo-selezionato {
+    background-color: grey;
+}
+
+.btn-selezionato {
+    background-color: yellow;
+}

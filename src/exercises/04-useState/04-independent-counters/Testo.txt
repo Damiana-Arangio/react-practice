@@ -1,0 +1,43 @@
+ESERCIZIO 4 — Independent Counters
+
+Crea un'app React composta da due componenti:
+
+- IndependentCounters.jsx → componente padre
+- IndependentCounter.jsx → componente figlio
+
+OBIETTIVO:
+Mostrare più contatori indipendenti.
+
+Ogni contatore deve avere il proprio valore.
+
+Quando l'utente clicca il pulsante di un contatore, deve aumentare solo quel contatore.
+
+COMPONENTE PADRE:
+Il componente padre deve:
+
+- creare un array di dati;
+- renderizzare più componenti IndependentCounter tramite .map().
+
+COMPONENTE FIGLIO:
+Il componente figlio deve creare:
+
+1. count
+   È una variabile di stato numerica.
+   Serve per memorizzare il valore del singolo contatore.
+
+2. handleIncrement
+   È una funzione che incrementa count di 1.
+
+Il componente deve:
+
+- mostrare il valore del contatore;
+- mostrare un pulsante di incremento;
+- incrementare il proprio stato al click.
+
+LOGICA:
+Ogni contatore possiede una propria variabile di stato.
+
+Quando l'utente clicca un pulsante:
+1. viene aggiornato solo lo stato del contatore cliccato;
+2. React aggiorna quel componente;
+3. gli altri contatori non cambiano.
