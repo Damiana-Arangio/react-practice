@@ -1,0 +1,24 @@
+ESERCIZIO 1 — Delayed Message
+
+OBIETTIVO:
+Mostrare un messaggio dopo 3 secondi dal caricamento del componente.
+
+Il componente deve creare:
+
+1. isVisible
+   È una variabile di stato booleana.
+   Serve per stabilire se il messaggio deve essere visibile oppure nascosto.
+
+2. useEffect
+   Serve per avviare un timer quando il componente viene montato.
+
+LOGICA:
+All’inizio il messaggio è nascosto.
+
+Dopo 3 secondi:
+1. lo stato isVisible diventa true;
+2. React esegue un nuovo render;
+3. il messaggio viene mostrato nella UI.
+
+EXTRA:
+Quando il componente viene smontato, il timer deve essere rimosso per evitare che continui a eseguire operazioni inutili.

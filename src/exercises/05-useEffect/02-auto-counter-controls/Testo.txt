@@ -1,0 +1,31 @@
+ESERCIZIO 2 — Auto Counter Controls
+
+OBIETTIVO:
+Creare un contatore automatico con pulsanti Start/Stop e Reset.
+
+Il componente deve creare:
+
+1. count
+   È una variabile di stato numerica.
+   Serve per memorizzare il valore del contatore.
+
+2. isRunning
+   È una variabile di stato booleana.
+   Serve per stabilire se il contatore deve essere attivo oppure fermo.
+
+3. handleToggle
+   È una funzione che avvia o ferma il contatore.
+
+4. handleReset
+   È una funzione che riporta count a 0.
+
+LOGICA:
+Quando isRunning è true, il contatore aumenta automaticamente di 1 ogni secondo.
+Quando isRunning è false, il contatore resta fermo.
+
+Quando l’utente clicca Reset:
+1. count torna a 0;
+2. il contatore viene aggiornato nella UI.
+
+EXTRA:
+Quando il contatore viene fermato o il componente viene smontato, l’intervallo deve essere rimosso per evitare che continui ad aggiornare lo stato.

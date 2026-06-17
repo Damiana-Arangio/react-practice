@@ -1,0 +1,29 @@
+ESERCIZIO 03 — Lista Utenti
+
+Realizza una pagina che mostri l'elenco degli utenti recuperati da un servizio esterno.
+
+I dati sono disponibili al seguente endpoint:
+
+https://jsonplaceholder.typicode.com/users
+Requisiti
+
+La pagina deve:
+
+recuperare i dati all'apertura della pagina;
+informare l'utente in caso di errore;
+visualizzare l'elenco degli utenti ottenuti.
+
+Per ogni utente devono essere mostrati:
+
+nome;
+email;
+città di residenza.
+
+Output di esempio
+Leanne Graham
+Email: Sincere@april.biz
+Città: Gwenborough
+
+Ervin Howell
+Email: Shanna@melissa.tv
+Città: Wisokyburgh

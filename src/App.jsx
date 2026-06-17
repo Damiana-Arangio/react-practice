@@ -10,6 +10,10 @@ import SynchronizedCounters from "./exercises/04-useState/03 — Synchronized Co
 import IndependentCounters from "./exercises/04-useState/04-independent-counters/IndependentCounters"
 import SelectableList from "./exercises/04-useState/05-selectable-list/SelectableList"
 import AccordionList from "./exercises/04-useState/06-accordion/AccordionList"
+import DelayedMessage from "./exercises/05-useEffect/01-delayed-message/DelayedMessage"
+import AutoCounterControls from "./exercises/05-useEffect/02-auto-counter-controls/AutoCounterControls"
+import UsersListApi from "./exercises/05-useEffect/03-users-list-api/UsersListApi"
+import ProductsListApi from "./exercises/05-useEffect/04-products-list-api/ProductsListApi"
 
 function App() {
 
@@ -20,11 +24,14 @@ function App() {
           <LanguagesList/>
           <StudentsList/>
           <ProductsList/>
+
         <h2> 02-exercises-props </h2>
           <UserList/>
           <MovieList/>
+
         <h2> 03-exercises-conditional-rendering </h2>
           <UserStatusList/>
+
         <h2> 04-exercises--useState </h2>
           <ToggleContainer/>
           <CounterContainer/>
@@ -32,7 +39,13 @@ function App() {
           <IndependentCounters/>
           <SelectableList/>
           <AccordionList/>
-          
+
+      <h2> 05-useEffect </h2>
+        <DelayedMessage/>
+        <AutoCounterControls/>
+        <UsersListApi/>
+        <ProductsListApi />
+    
     </>
   )
 }

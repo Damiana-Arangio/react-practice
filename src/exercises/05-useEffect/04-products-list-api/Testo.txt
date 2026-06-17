@@ -1,0 +1,25 @@
+ESERCIZIO 04 — Lista Prodotti
+
+Realizza una pagina che mostri l'elenco dei prodotti recuperati da un servizio esterno.
+
+I dati sono disponibili al seguente endpoint:
+
+https://fakestoreapi.com/products
+Requisiti
+
+La pagina deve:
+
+recuperare i dati all'apertura della pagina;
+mostrare un messaggio durante il caricamento dei dati;
+informare l'utente in caso di errore;
+visualizzare l'elenco dei prodotti ottenuti.
+
+Per ogni prodotto devono essere mostrati:
+
+immagine;
+titolo;
+prezzo;
+categoria.
+
+Bonus
+Mostra solo i primi 8 prodotti ricevuti dall'API.
