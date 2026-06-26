@@ -1,0 +1,26 @@
+Consegna
+
+Crea un componente che mostra un form per inserire il nome di un utente.
+
+La pagina deve contenere:
+
+un campo di testo per il nome;
+un bottone per inviare il form;
+una frase che mostra in tempo reale il valore digitato;
+una sezione che mostra il nome inviato dopo il submit.
+
+Requisiti:
+
+il campo deve aggiornarsi mentre l’utente scrive;
+il form deve poter essere inviato sia cliccando sul bottone sia premendo Invio;
+all’invio del form, la pagina non deve ricaricarsi;
+se il campo è vuoto, non deve essere mostrato alcun nome inviato;
+dopo un invio valido, deve comparire il nome inviato.
+
+Output atteso durante la compilazione:
+
+Nome digitato: Damiana
+
+Output atteso dopo l’invio:
+
+Nome inviato: Damiana

@@ -1,0 +1,80 @@
+Consegna:
+Realizza una semplice Todo List in React composta da tre componenti.
+
+L'applicazione deve permettere all'utente di:
+
+- visualizzare una lista iniziale di task;
+- aggiungere un nuovo task tramite form;
+- eliminare un task dalla lista;
+- visualizzare il numero totale di task presenti.
+
+Struttura dei componenti:
+
+1. TodoList.jsx
+
+TodoList.jsx deve essere il componente padre.
+
+Il componente padre deve:
+
+- gestire lo stato della lista dei task;
+- contenere almeno tre task iniziali;
+- aggiungere un nuovo task alla lista;
+- eliminare un task dalla lista;
+- mostrare il numero totale di task;
+- mostrare un messaggio se la lista è vuota;
+- passare dati e funzioni ai componenti figli tramite props.
+
+2. AddTodoForm.jsx
+
+AddTodoForm.jsx deve gestire il form per aggiungere un nuovo task.
+
+Il componente deve:
+
+- mostrare un campo di testo;
+- permettere all'utente di scrivere un nuovo task;
+- intercettare l'invio del form;
+- impedire il refresh della pagina;
+- impedire l'aggiunta di task vuoti;
+- comunicare al componente padre il nuovo task da aggiungere;
+- svuotare il campo dopo l'invio valido.
+
+3. TodoItem.jsx
+
+TodoItem.jsx deve rappresentare un singolo task.
+
+Il componente deve:
+
+* ricevere dal padre i dati del task;
+* mostrare il testo del task;
+* mostrare un pulsante per eliminare il task;
+* comunicare al componente padre quale task eliminare.
+
+Requisiti:
+
+* all'avvio dell'app devono essere presenti almeno tre task iniziali;
+* ogni task deve essere visualizzato nella pagina;
+* ogni task deve avere un pulsante "Elimina";
+* quando l'utente aggiunge un nuovo task, la lista deve aggiornarsi automaticamente;
+* quando l'utente elimina un task, la lista deve aggiornarsi automaticamente;
+* il numero totale di task deve aggiornarsi dopo ogni aggiunta o eliminazione;
+* se la lista è vuota, deve comparire un messaggio dedicato.
+
+Messaggio da mostrare se non ci sono task:
+Non ci sono task da mostrare.
+
+Output atteso iniziale:
+
+Totale task: 3
+
+* Studiare React [Elimina]
+* Fare esercizi sui form [Elimina]
+* Ripassare useState [Elimina]
+
+Output atteso dopo l'aggiunta di un nuovo task:
+
+Totale task: 4
+
+* Studiare React [Elimina]
+* Fare esercizi sui form [Elimina]
+* Ripassare useState [Elimina]
+* Ripassare props [Elimina]

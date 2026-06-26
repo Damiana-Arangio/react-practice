@@ -1,0 +1,39 @@
+Consegna
+
+Crea un componente per gestire le prenotazioni a un evento.
+
+Il form deve contenere:
+
+- nome partecipante;
+- email;
+- tipo di biglietto;
+- richiesta di posto riservato.
+
+Il tipo di biglietto deve permettere una sola scelta tra:
+
+- standard;
+- premium;
+- VIP.
+
+La richiesta di posto riservato deve indicare se il partecipante ha bisogno di un posto riservato oppure no.
+
+Requisiti:
+
+* l’utente deve poter compilare il form;
+* l’utente deve poter scegliere un solo tipo di biglietto;
+* l’utente deve poter indicare se desidera un posto riservato;
+* all’invio del form, la pagina non deve ricaricarsi;
+* se nome o email sono vuoti, la prenotazione non deve essere aggiunta;
+* dopo un invio valido, la prenotazione deve essere aggiunta a una lista;
+* ogni prenotazione mostrata deve contenere nome, email, tipo di biglietto e stato del posto riservato;
+* deve essere possibile eliminare una prenotazione dalla lista;
+* deve essere mostrato il numero totale di prenotazioni presenti.
+
+Esempio di prenotazione mostrata:
+
+```txt id="ux4z5m"
+Nome: Damiana
+Email: damiana@email.com
+Biglietto: premium
+Posto riservato: Sì
+```

@@ -1,0 +1,35 @@
+Consegna
+
+Crea un componente che mostra un form per inserire i dati di un prodotto.
+
+Il form deve contenere:
+
+nome prodotto;
+prezzo;
+categoria;
+disponibilità.
+
+Sotto il form deve essere mostrata un’anteprima in tempo reale dei dati inseriti.
+
+L’anteprima deve mostrare:
+
+nome prodotto;
+prezzo;
+categoria;
+disponibilità.
+
+Requisiti:
+
+tutti i campi devono essere collegati ai dati del form;
+l’anteprima deve aggiornarsi mentre l’utente compila i campi;
+la disponibilità deve indicare se il prodotto è disponibile oppure non disponibile;
+all’invio del form, la pagina non deve ricaricarsi;
+dopo l’invio, deve essere mostrata una sezione “Prodotto inviato”;
+dopo l’invio valido, il form deve tornare ai valori iniziali.
+
+Output atteso dell’anteprima:
+
+Nome: Tastiera
+Prezzo: 39.99
+Categoria: Accessori
+Disponibile: Sì

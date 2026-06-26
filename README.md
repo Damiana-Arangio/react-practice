@@ -2,7 +2,7 @@
 
 Repository dedicata al ripasso pratico di React attraverso esercizi progressivi.
 
-Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali di React, partendo dalle basi fino alla gestione dello stato, degli effetti collaterali e dei componenti.
+Gli esercizi sono organizzati per argomento e hanno l'obiettivo di consolidare i concetti fondamentali di React, partendo dalle basi fino alla gestione dello stato, degli effetti collaterali, dei form e della comunicazione tra componenti.
 
 ## Struttura della Repository
 
@@ -29,9 +29,30 @@ src/
     │   ├── 05-selectable-list
     │   └── 06-accordion
     │
-    └── 05-useEffect/
-        ├── 01-delayed-message
-        ├── 02-auto-counter-controls
-        ├── 03-users-list-api
-        └── 04-products-list-api
+    ├── 05-useEffect/
+    │   ├── 01-delayed-message
+    │   ├── 02-auto-counter-controls
+    │   ├── 03-users-list-api
+    │   └── 04-products-list-api
+    │
+    └── 06-Forms/
+        ├── 01-user-name-form
+        ├── 02-product-form
+        ├── 03-event-booking-form
+        └── 04-todo-list
 ```
+
+## Argomenti ripassati
+
+* rendering di liste con `map()`;
+* passaggio dati tramite `props`;
+* conditional rendering;
+* gestione dello stato con `useState`;
+* aggiornamento dello stato in modo immutabile;
+* gestione degli effetti con `useEffect`;
+* chiamate API;
+* form controllati;
+* gestione di input singoli e multipli;
+* checkbox e radio button;
+* aggiunta e rimozione di elementi da una lista;
+* comunicazione tra componente padre e componenti figli.
