@@ -18,6 +18,8 @@ import UserNameForm from "./exercises/06-Forms/01-user-name-form/UserNameForm"
 import ProductForm from "./exercises/06-Forms/02-product-form/ProductForm"
 import EventBookingForm from "./exercises/06-Forms/03-event-booking-form/EventBookingForm"
 import TodoList from "./exercises/06-Forms/04-todo-list/TodoList"
+import CounterReducer from "./exercises/07-useReducer/01-counter-reducer/CounterReducer"
+import TodoReducer from "./exercises/07-useReducer/02-todo-reducer/TodoReducer"
 
 function App() {
 
@@ -50,12 +52,15 @@ function App() {
         <UsersListApi/>
         <ProductsListApi />
 
-      <h2> 05-useEffect </h2>
+      <h2> 06-Forms </h2>
       <UserNameForm/>
       <ProductForm/>
       <EventBookingForm/>
       <TodoList/>
     
+      <h2> 07-useReducer </h2>
+      <CounterReducer/>
+      <TodoReducer/>
     </>
   )
 }

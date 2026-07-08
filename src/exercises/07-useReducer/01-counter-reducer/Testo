@@ -1,0 +1,15 @@
+Testo esercizio:
+
+Crea un componente che mostri un contatore con valore iniziale 0.
+
+Nella pagina devono esserci tre pulsanti:
+
+Incrementa
+Decrementa
+Reset
+
+Quando l’utente clicca su Incrementa, il valore del contatore aumenta di 1.
+
+Quando l’utente clicca su Decrementa, il valore del contatore diminuisce di 1.
+
+Quando l’utente clicca su Reset, il valore del contatore torna a 0.

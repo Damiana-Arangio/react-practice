@@ -1,0 +1,17 @@
+Testo esercizio:
+
+Crea un componente che permetta di gestire una lista di attività.
+
+La pagina deve contenere:
+
+un input di testo
+un bottone per aggiungere una nuova attività
+la lista delle attività inserite
+
+Ogni attività deve mostrare:
+
+il testo dell’attività
+un bottone per eliminarla
+
+Quando l’utente scrive nell’input e clicca sul bottone, la nuova attività viene aggiunta alla lista.
+Quando l’utente clicca su Elimina, l’attività viene rimossa dalla lista.
